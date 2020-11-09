@@ -1,3 +1,4 @@
+const HtmlWebpackInlinePlugin = require('html-webpack-inline-plugin');
 module.exports = {
 	// 项目部署的基础路径
 	// 我们默认假设你的应用将会部署在域名的根部，
@@ -11,7 +12,6 @@ module.exports = {
 
 	// 将构建好的文件输出到哪里（或者说将编译的文件）
 	outputDir: 'dist',
-
 	// 放置静态资源的地方 (js/css/img/font/...)
 	assetsDir: '',
 
@@ -54,7 +54,8 @@ module.exports = {
 	// 调整内部的 webpack 配置。
 	// 查阅 https://github.com/vuejs/vue-docs-zh-cn/blob/master/vue-cli/webpack.md
 	chainWebpack: () => {},
-	configureWebpack: () => {},
+	configureWebpack: () => {
+	},
 
 	// CSS 相关选项
 	css: {

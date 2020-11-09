@@ -1,6 +1,6 @@
 <template>
 	<div class="content">
-		<p>vue3.0脚手架封装</p>
+		<p>维康大药房（广州）有限公司线上实时运营数据</p>
 	</div>
 </template>
 
@@ -31,6 +31,8 @@
 	.content{
 		p{
 			text-align: center;
+			font-size: 0.325rem;
+			font-weight: bold;
 		}
 	}
 </style>
